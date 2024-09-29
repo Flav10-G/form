@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Formulario Definitivo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Formulario</h1>
+      </div>
+      <br>
+      <center><input type="button" value="Veja" onclick="alert('Use meu Formulario')" class="butao"></center>
+    <form>
+        <br>
+        <div class="email">
+            <label for="idemail">Email</label>
+            <input type="email" name="email" id="idemail" required placeholder="Digite seu Email">
+        </div>
+        <div class="senha">
+            <label for="idsenhinha">Senha</label>
+            <input type="password" name="senhinha" id="idsenhinha" required placeholder="Digite sua Senha" maxlength="8">
+        </div>
+        <br>
+        <hr >
+        <br>
+        <div class="data">
+            <label for="iddatinha">Selecione uma Data</label><br>
+            <input type="date" name="Datinha" id="iddatinha">
+        </div>
+        <br>
+        <hr >
+        <br>
+    <div class="messi">
+        <p>Selecione quais suas marcas <br> de empresas tec que você prefere</p>
+        <label for="idsamsung" >Samsung</label>
+        <input type="checkbox" name="samsung" id="idsamsung"> <br>
+        <label for="idapple">Apple</label>
+        <input type="checkbox" name="apple" id="idapple"> <br>
+        <label for="idxiaomi">Xiaomi</label>
+        <input type="checkbox" name="xiaomi" id="idxiaomi">
+    </div>
+    <br>
+    <hr >
+    <br>
+    <div class="program">
+        <p>Oque acha das  <br> linguagens de programação?</p>
+            <p>Facil<input type="radio" name="programação" id="Html" value="facil"></p>
+            <p>Dificil<input type="radio" name="programação" id="Html" value="Complicado"></p>
+            <p>Não sei<input type="radio" name="programação" id="Html" value="nsei"></p>
+    </div>
+    <br>
+    <hr >
+    <br>
+    <div class="texto">
+        <label for="idtexto">Escreva sua opinião sobre <br> linguagens de programação</label> <br>
+        <textarea name="texto" id="idtexto" cols="35" rows="10"></textarea>
+    </div>
+    <br>
+    <hr >
+    <br>
+    <center><input type="submit" value="Enviar" class="enviar">
+    <input type="reset" value="Limpar" class="limpar"></center>
+    </form>
+</body>
+</html>
